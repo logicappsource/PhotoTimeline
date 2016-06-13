@@ -16,8 +16,8 @@
                         <color key="barTintColor" red="0.23921568627450979" green="0.24705882352941178" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="3Y0-kC-ozD" kind="relationship" relationship="viewControllers" id="lit-TS-E7l"/>
                         <segue destination="pcr-Ha-cHT" kind="relationship" relationship="viewControllers" id="JD5-pB-JMp"/>
+                        <segue destination="3Y0-kC-ozD" kind="relationship" relationship="viewControllers" id="lit-TS-E7l"/>
                         <segue destination="lrD-MI-Ivw" kind="relationship" relationship="viewControllers" id="SpG-9u-Vba"/>
                     </connections>
                 </tabBarController>
@@ -64,7 +64,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-06-09 at 23.25.18.png" translatesAutoresizingMaskIntoConstraints="NO" id="aUR-p1-kud">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-06-09 at 23.25.18.png" translatesAutoresizingMaskIntoConstraints="NO" id="aUR-p1-kud">
                                             <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                         </imageView>
                                     </subviews>

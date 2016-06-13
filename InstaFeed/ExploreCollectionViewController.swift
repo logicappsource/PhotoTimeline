@@ -28,6 +28,19 @@ class ExploreCollectionViewController: UICollectionViewController {
         //self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
+        
+        self.collectionView?.backgroundColor = UIColor.whiteColor()
+        
+        
+        let layout = collectionViewLayout as! UICollectionViewFlowLayout
+        let width = (collectionView!.bounds.width - 2 ) / 3
+        layout.itemSize = CGSizeMake(width, width)
+        
+        layout.minimumInteritemSpacing = 1.0 // Space between two cells
+        layout.minimumLineSpacing = 1.0 
+        
+        
+        
     }
 
     
