@@ -12,6 +12,9 @@
 		CDC76EDA1D0E9C55004F5DC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC76ED81D0E9C55004F5DC0 /* Main.storyboard */; };
 		CDC76EDC1D0E9C55004F5DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC76EDB1D0E9C55004F5DC0 /* Assets.xcassets */; };
 		CDC76EDF1D0E9C55004F5DC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC76EDD1D0E9C55004F5DC0 /* LaunchScreen.storyboard */; };
+		CDC76EE71D0EA7F4004F5DC0 /* Screen Shot 2016-06-09 at 23.25.18.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC76EE61D0EA7F4004F5DC0 /* Screen Shot 2016-06-09 at 23.25.18.png */; };
+		CDC76EE91D0EA839004F5DC0 /* ExploreCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC76EE81D0EA839004F5DC0 /* ExploreCollectionViewController.swift */; };
+		CDC76EEB1D0EAAB4004F5DC0 /* ExplorePhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC76EEA1D0EAAB4004F5DC0 /* ExplorePhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CDC76EDB1D0E9C55004F5DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC76EDE1D0E9C55004F5DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDC76EE01D0E9C55004F5DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC76EE61D0EA7F4004F5DC0 /* Screen Shot 2016-06-09 at 23.25.18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-06-09 at 23.25.18.png"; sourceTree = "<group>"; };
+		CDC76EE81D0EA839004F5DC0 /* ExploreCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreCollectionViewController.swift; sourceTree = "<group>"; };
+		CDC76EEA1D0EAAB4004F5DC0 /* ExplorePhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplorePhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		CDC76ED31D0E9C55004F5DC0 /* InstaFeed */ = {
 			isa = PBXGroup;
 			children = (
+				CDC76EE61D0EA7F4004F5DC0 /* Screen Shot 2016-06-09 at 23.25.18.png */,
 				CDC76ED41D0E9C55004F5DC0 /* AppDelegate.swift */,
 				CDC76ED61D0E9C55004F5DC0 /* ViewController.swift */,
 				CDC76ED81D0E9C55004F5DC0 /* Main.storyboard */,
+				CDC76EE81D0EA839004F5DC0 /* ExploreCollectionViewController.swift */,
+				CDC76EEA1D0EAAB4004F5DC0 /* ExplorePhotoCollectionViewCell.swift */,
 				CDC76EDB1D0E9C55004F5DC0 /* Assets.xcassets */,
 				CDC76EDD1D0E9C55004F5DC0 /* LaunchScreen.storyboard */,
 				CDC76EE01D0E9C55004F5DC0 /* Info.plist */,
@@ -125,6 +134,7 @@
 				CDC76EDF1D0E9C55004F5DC0 /* LaunchScreen.storyboard in Resources */,
 				CDC76EDC1D0E9C55004F5DC0 /* Assets.xcassets in Resources */,
 				CDC76EDA1D0E9C55004F5DC0 /* Main.storyboard in Resources */,
+				CDC76EE71D0EA7F4004F5DC0 /* Screen Shot 2016-06-09 at 23.25.18.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +147,8 @@
 			files = (
 				CDC76ED71D0E9C55004F5DC0 /* ViewController.swift in Sources */,
 				CDC76ED51D0E9C55004F5DC0 /* AppDelegate.swift in Sources */,
+				CDC76EE91D0EA839004F5DC0 /* ExploreCollectionViewController.swift in Sources */,
+				CDC76EEB1D0EAAB4004F5DC0 /* ExplorePhotoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +300,7 @@
 				CDC76EE51D0E9C55004F5DC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
